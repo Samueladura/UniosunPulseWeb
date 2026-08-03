@@ -17,7 +17,7 @@ function App() {
             UniOsunPulse keeps you connected to campus life. Get the latest news, alerts, and community updates in one place.
           </p>
 
-          <a className="download-button" href="/uniosunpulse.apk" download>
+          <a className="download-button" href="https://github.com/Samueladura/UniosunPulse/releases/download/v1.0.0/UniosunPulse.apk" download>
             <span className="download-icon" aria-hidden="true">⬇</span>
             Download for Android
           </a>
