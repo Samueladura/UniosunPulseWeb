@@ -22,7 +22,7 @@ function App() {
 
           <a
             className="download-button"
-            href="https://github.com/Samueladura/UniosunPulse/releases/download/v1.0.0/UniosunPulse.apk"
+            href="https://github.com/Samueladura/UniosunPulse/releases/download/v1.0.0/app-release.apk"
             download>
             <span className="download-icon" aria-hidden="true">
               ⬇
