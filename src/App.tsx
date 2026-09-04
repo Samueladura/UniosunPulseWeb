@@ -1,5 +1,5 @@
-import logoImage from '/uniosunlogo.png'
-import './App.css'
+import logoImage from '/uniosunlogo.png';
+import './App.css';
 
 function App() {
   return (
@@ -8,17 +8,25 @@ function App() {
         <div className="logo-area">
           <img className="logo-mark" src={logoImage} alt="UniOsunPulse logo" />
           <h1 className="brand">UniOsunPulse</h1>
-          <p className="tagline">Your campus community, updated in real time.</p>
+          <p className="tagline">
+            Your campus community, updated in real time.
+          </p>
         </div>
 
         <div className="card">
           <h2 className="card-title">About the app</h2>
           <p className="about-text">
-            UniOsunPulse keeps you connected to campus life. Get the latest news, alerts, and community updates in one place.
+            UniOsunPulse keeps you connected to campus life. Get the latest
+            news, alerts, and community updates in one place.
           </p>
 
-          <a className="download-button" href="https://github.com/Samueladura/UniosunPulse/releases/download/v1.0.0/UniosunPulse.apk" download>
-            <span className="download-icon" aria-hidden="true">⬇</span>
+          <a
+            className="download-button"
+            href="https://github.com/Samueladura/UniosunPulse/releases/download/v1.0.0/UniosunPulse.apk"
+            download>
+            <span className="download-icon" aria-hidden="true">
+              ⬇
+            </span>
             Download for Android
           </a>
 
@@ -32,7 +40,7 @@ function App() {
         </footer>
       </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
