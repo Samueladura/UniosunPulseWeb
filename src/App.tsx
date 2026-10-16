@@ -6,8 +6,8 @@ function App() {
     <div className="page">
       <main className="container">
         <div className="logo-area">
-          <img className="logo-mark" src={logoImage} alt="UniOsunPulse logo" />
-          <h1 className="brand">UniOsunPulse</h1>
+          <img className="logo-mark" src={logoImage} alt="UniOsunInfo logo" />
+          <h1 className="brand">UniOsunInfo</h1>
           <p className="tagline">
             Your campus community, updated in real time.
           </p>
@@ -16,13 +16,13 @@ function App() {
         <div className="card">
           <h2 className="card-title">About the app</h2>
           <p className="about-text">
-            UniOsunPulse keeps you connected to campus life. Get the latest
+            UniOsunInfo keeps you connected to campus life. Get the latest
             news, alerts, and community updates in one place.
           </p>
 
           <a
             className="download-button"
-            href="https://github.com/Samueladura/UniosunPulse/releases/download/v1.0.0/app-release.apk"
+            href="https://github.com/Samueladura/UniOsunInfo/releases/download/v1.0.0/app-release.apk"
             download>
             <span className="download-icon" aria-hidden="true">
               ⬇
@@ -36,7 +36,7 @@ function App() {
         </div>
 
         <footer className="footer">
-          <span>© {new Date().getFullYear()} UniOsunPulse</span>
+          <span>© {new Date().getFullYear()} UniOsunInfo</span>
         </footer>
       </main>
     </div>
